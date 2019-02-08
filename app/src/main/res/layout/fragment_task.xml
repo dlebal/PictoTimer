@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Container -->
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:coverflow="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- Task name -->
+    <TextSwitcher
+            android:id="@+id/taskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true" />
+
+    <!-- Coverflow -->
+    <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+            android:id="@+id/coverflow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            coverflow:coverHeight="@dimen/coverflow_cover_height"
+            coverflow:coverWidth="@dimen/coverflow_cover_width"
+            coverflow:maxScaleFactor="1.5"
+            coverflow:reflectionGap="0dp"
+            coverflow:rotationThreshold="0.5"
+            coverflow:scalingThreshold="0.5"
+            coverflow:spacing="0.6" />
+
+    <!-- Task timer -->
+    <TextSwitcher
+            android:id="@+id/taskTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+</RelativeLayout>

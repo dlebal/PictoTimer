@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- resources -->
+<resources>
+
+    <!-- PictoTimerTheme -->
+    <style name="PictoTimerTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bottomNavigationStyle">@style/BottomNavigationView</item>
+    </style>
+
+    <!-- BottomNavigationView -->
+    <style name="BottomNavigationView" parent="">
+        <item name="android:elevation">@dimen/elevation_1</item>
+        <item name="itemBackground">?android:attr/windowBackground</item>
+        <item name="itemIconTint">@android:color/holo_blue_dark</item>
+        <item name="itemTextColor">@android:color/holo_blue_light</item>
+    </style>
+
+</resources>

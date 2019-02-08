@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Container -->
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- Task name -->
+    <TextView
+            android:id="@+id/taskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:visibility="gone" />
+
+    <!-- Task pictogram -->
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/taskPictogram"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/picto_task" />
+
+    <!-- Task timer -->
+    <TextView
+            android:id="@+id/taskTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:visibility="gone" />
+
+</RelativeLayout>
