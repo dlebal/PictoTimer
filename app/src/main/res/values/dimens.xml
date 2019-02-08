@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- resources -->
+<resources>
+
+    <!-- activity -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- coverflow -->
+    <dimen name="coverflow_cover_height">180dp</dimen>
+    <dimen name="coverflow_cover_width">120dp</dimen>
+
+    <!-- elevation -->
+    <dimen name="elevation_1">1dp</dimen>
+
+    <!-- task -->
+    <dimen name="task_name_size">40sp</dimen>
+    <dimen name="task_timer_size">40sp</dimen>
+
+</resources>

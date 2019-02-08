@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- resources -->
+<resources>
+
+    <!-- string -->
+    <string name="app_name">PictoTimer</string>
+    <string name="journal">Journal</string>
+    <string name="profile">Profile</string>
+    <string name="tasks">Tasks</string>
+    <string name="timer_default">00:00:00</string>
+
+</resources>
